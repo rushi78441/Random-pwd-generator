@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="rel href">
+    <title>Random Password Generator</title>
+</head>
+    <header>
+        Random Password Generator
+    </header>
+    <main>
+        <section>
+        <div class="container">
+        <div class="maxlength">
+            <h3 style="color: black; font-size: larger;" class="Head">Enter length of Password : </h3>
+        </div>
+        <br>
+        <br>
+        
+        <div class="box">
+            <div class="slider">
+                <input type="range" min="0" max="76" value="20" class="slider" id="myRange">
+                <div class="value">100</div>
+            </div>
+        </div>
+
+
+        <br><br>
+        <div>
+            <button class="btn" onclick="generatePassword();">Generate Password</button>
+        </div>
+        <br><br>
+        <div class="pwd">
+            <p id="passwordBox">
+            </p>
+        </div>
+
+        <br><br>
+    </div>
+</section>
+    </main>
+<footer>
+    &copy; 2024. Rushi Parekh.All rights reserved,
+</footer>
+<script src="script.js"></script>
+</body>
+</html> 
